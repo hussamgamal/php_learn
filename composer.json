@@ -1,0 +1,19 @@
+{
+    "name": "vendor/phpadvanced",
+    "description": "try some features and advanced topics in php",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Hossam Gamal",
+            "email": "hossamgamal.cs@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "optimize-autoloader": true
+}
