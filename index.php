@@ -1,7 +1,5 @@
 <?php
+$loader = require 'vendor/autoload.php';
 
-require_once 'vendor/autoload.php';
-
-var_dump(get_declared_classes());
-// $product = new App\DependancyInjection\Product('test' , 100);
-// var_dump($product);
+$a = new App\Product('Tessssssssttt' , 100);
+var_dump($a);

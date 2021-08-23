@@ -1,5 +1,7 @@
 <?php
-namespace DependancyInjection;
+namespace App\DependancyInjection;
+
+use App\DependancyInjection\Product;
 
 class Order{
     public $product;

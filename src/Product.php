@@ -1,5 +1,6 @@
 <?php
-namespace App\DependancyInjection;
+
+namespace App;
 
 class Product{
     /**
@@ -12,5 +13,5 @@ class Product{
     {
         $this->name = $name;
         $this->price = $price;
-    }
+    }   
 }

@@ -6,5 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\DependancyInjection\\Order' => $baseDir . '/src/DependancyInjection/Order.php',
+    'App\\DependancyInjection\\Product' => $baseDir . '/src/DependancyInjection/Product.php',
+    'App\\Product' => $baseDir . '/src/Product.php',
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
 );
