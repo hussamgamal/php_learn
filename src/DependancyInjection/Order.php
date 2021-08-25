@@ -15,3 +15,10 @@ class Order{
         return $this->product;
     }
 }
+
+/**
+ * اللى معمول هنا ده اسمها 
+ * DI : dependancy injection
+ * بحيث ان الكلاس دا معتمد على كلاس ال product 
+ * فانا بعمله inject ف الكونستركتر
+ */
